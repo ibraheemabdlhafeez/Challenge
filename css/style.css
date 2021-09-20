@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+body {
+    background: #273036;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.container .card {
+    width: 350px;
+    background: white;
+    margin: 150px 450px;
+    border-radius: 7px;
+}
+.container .card .header svg {
+    width: 100%;
+    border-radius: 7px 7px 0 0;
+}
+.container .card .body .img {
+    margin-top: -50px;
+    margin-left: 125px;
+}
+.container .card .body .img img {
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.container .card .body .details {
+    text-align: center;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+.container .card .body .details .name {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.container .card .body .details .name span {
+    color: hsl(227, 10%, 46%);
+    font-size: 1.1rem;
+}
+.container .card .body .details .location {
+    margin-top: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.container .card .footer {
+    display: flex;
+    padding: 20px 30px;
+    text-align: center;
+    justify-content: space-around;
+}
+.container .card .footer .num {
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin: 0 0 5px;
+    color: #000000;
+}
+.container .card .footer .tag {
+    font-size: .8rem;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
